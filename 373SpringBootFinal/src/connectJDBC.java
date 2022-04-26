@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class LectureExample {
+public class ConnectJDBC {
 
 	static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 	static final String DB_URL = "jdbc:mysql://localhost/bobaShops";
@@ -27,19 +27,19 @@ public class LectureExample {
 		
 	}
 	
-	// public static void insertMenu(Connection conn, String filename) {
+	public static void insertEmployee(Connection conn, String filename) {
 		
-	// 	// Reading from the csv file
-	// 	List<List<String>> menuRecords = new ArrayList<>();
-	// 	try (Scanner scanner = new Scanner(new File("menu.csv"));) {
-	// 	    while (scanner.hasNextLine()) {
-	// 	    	menuRecords.add(getRecordFromLine(scanner.nextLine()));
-	// 	    }
-	// 	} catch (IOException e) {
-	// 		e.printStackTrace();
-	// 	}
+		// Reading from the csv file
+		List<List<String>> employeeRecords = new ArrayList<>();
+		try (Scanner scanner = new Scanner(new File("Employee.csv"));) {
+		    while (scanner.hasNextLine()) {
+		    	employeeRecords.add(getRecordFromLine(scanner.nextLine()));
+		    }
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
-	// }
+	}
 
 	// public static void insertOrders(Connection conn, String filename) {
 		
