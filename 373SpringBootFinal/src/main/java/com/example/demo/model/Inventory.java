@@ -22,8 +22,9 @@ public class Inventory implements Serializable {
 	
 	}
 	
-	public Inventory(Integer quantity) {
+	public Inventory(Integer quantity, Integer store_id) {
 		this.quantity = quantity;
+		this.store_id = store_id;
 	}
 	
 	public Integer getIngredient_id() {

@@ -28,4 +28,53 @@ public class Member {
 		this.address = address;
 		this.date_init = date_init;
 	}
+	
+	public String getAddress() {
+		return address;
+	}
+	
+	public Date getDate_init() {
+		return date_init;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+	
+	public Integer getMember_id() {
+		return member_id;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public Integer getPhone() {
+		return phone;
+	}
+	
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	public void setDate_init(Date date_init) {
+		this.date_init = date_init;
+	}
+	
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	public void setMember_id(Integer member_id) {
+		this.member_id = member_id;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void setPhone(Integer phone) {
+		this.phone = phone;
+	}
+	
 }
