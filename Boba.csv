@@ -1,107 +1,11 @@
-Boba_id,Name,Price
-200,Boba Milk Tea,6.6
-201,Almond Milk Tea,3.7
-202,Banana Milk Tea,8.03
-203,Barley Chocolate Milk Tea,1.95
-204,Barley Milk Tea,3.41
-205,Cappuccino,1.54
-206,Chocolate Milk Tea,4.85
-207,Coconut Milk Tea,7.36
-208,Coffee Jelly with Milk Tea,6.81
-209,Coffee Milk Tea,2.5
-210,Ginger Milk Tea,8.35
-211,Honey Milk Green Tea,8.23
-212,Honey Milk Tea,2.09
-213,Honeydew Milk Tea,4.5
-214,Iced Coffee,2.78
-215,Jasmine Milk Tea,1.76
-216,Lavender Milk Tea,5.95
-217,Lychee Jelly Milk Tea,3.18
-218,Mocha Cappuccino,7.7
-219,Pudding Milk Tea,2.55
-220,Sesame Milk Tea,4.29
-221,Strawberry Milk Tea,6.55
-222,Taro Milk Tea,6.51
-223,Thai Iced Tea,3.71
-224,Japanese Genmai Green Tea,8.61
-225,Blueberry Slush,6.76
-226,Cappuccino Slush,5.21
-227,Chocolate Slush,8.47
-228,Coffee Slush,5.3
-229,Dark Plum Slush,5.73
-230,Green Apple Slush,7.58
-231,Green Bean Milk Slush,1.4
-232,Green Bean Slush,3.4
-233,Green Mango Slush,4.75
-234,Honey Green Milk Tea Slush,7.26
-235,Honey Milk Tea Slush,5.73
-236,Honeydew Slush,1.94
-237,Kiwi Slush,8.82
-238,Lemon Slush,4.58
-239,Lychee Slush,7.76
-240,Mango Slush,3.94
-241,Mint Chocolate Slush,1.63
-242,Mocha Cappuccino Slush,1.44
-243,Mo-cha Green Tea Slush,8.46
-244,Orange Slush,3.74
-245,Passion Fruit Slush,6.49
-246,Peach Slush,3.38
-247,Pina Colada Slush,5.94
-248,Red Bean Milk Slush,7.21
-249,Red Bean Slush,6.43
-250,Royal Milk Tea Slush,2.01
-251,Sour Plum Slush,5.35
-252,Strawberry Slush,2.96
-253,Taro Slush,4.84
-254,Thai Iced Tea Slush,8.75
-255,Two Flavor Slush,4.58
-256,Yogurt Slush,4.33
-257,Boba Milk Tea,6.27
-258,Almond Milk Tea,4.03
-259,Barley Milk Tea,3.17
-260,Black Tea,7.27
-261,Cappuccino,1.81
-262,Chocolate Milk Tea,8.39
-263,Coconut Milk Tea,5.58
-264,Coconut Pineapple Tea,1.6
-265,Coffee,1.31
-266,Coffee Milk Tea,6.14
-267,Fruit Magic Tea,6.67
-268,Ginger Longan Tea,5.19
-269,Ginger Milk Tea,8.87
-270,Ginger Tea,2.11
-271,Grass Jelly,5.45
-272,Green Tea,7.11
-273,Hawaiian Fruit Tea,4.82
-274,Honey Green Milk Tea,1.65
-275,Honey Lemon Tea,4.27
-276,Honey Milk Tea,8.01
-277,Honeydew Milk Tea,1.42
-278,Jack Fruit Tea,1.79
-279,Jasmine Milk Tea,2.2
-280,Lavender Milk Tea,6.02
-281,Longan Tea,3.12
-282,Magic Fruit Tea,7.48
-283,Rose Herbal Tea,7.3
-284,Sesame Milk Tea,2.55
-285,Taro Milk Tea,8.47
-286,Almond Snow,2.94
-287,Apple Snow,6.63
-288,Banana Snow,5.56
-289,Champagne Grape Snow,5.66
-290,Chocolate Snow,3.47
-291,Grape Snow,8.49
-292,Green Apple Snow,6.53
-293,Lemon Snow,8.18
-294,Mango Snow,2.44
-295,Orange Snow,5.17
-296,Passion Fruit Snow,8.38
-297,Peach Snow,2.31
-298,Peppermint Snow,2.77
-299,Plum Snow,7.42
-300,Sour Plum Snow,4.92
-301,Strawberry Snow,5.41
-302,Strawberry Yogurt Snow,1.84
-303,Tangerine Snow,5.7
-304,Two Flavor Snow,2.73
-305,Vanilla Snow,6.39
+﻿boba_id,name,price,,,
+1,Strawberry Yakult,4.5,,,
+2,Hibiscus Fresh Tea,4.5,,,
+3,Osmanthus Tea,5,,,
+4,Honey Green Tea,5.5,,,
+5,Black Oolong Tea,5,,,
+6,Taro,4.5,,,
+7,Thai Tea,4.5,,,
+8,Passionfruit Green Tea,4.2,,,
+9,Oreo Cookie Smoothie,4.5,,,
+10,Jasmine Milk Tea,4.5,,,
