@@ -3,65 +3,73 @@ USE bobaShops;
 CREATE TABLE Boba (
 	Boba_id int,
 	Name varchar(50) not null,
-	Price decimal(3, 1),
-	Primary key(boba_id)
+	Price decimal(3, 2) not null,
+	Review decimal(3, 2) not null,
+	Primary key(boba_id);
 );
 /* FIXME: add unique_id for Employee table */
 
 CREATE TABLE Employee ( 
-	Home_store_id int,
 	emp_id int not null,
-	name varchar(50) not null,
-	Phone int,
-    email varchar(50) not null, 
-	Address varchar(50) not null,
-    PRIMARY KEY (emp_id)
+	address varchar(100) not null,
+	email varchar(100) not null,
+	home_store_id varchar(100) not null,
+	name varchar(100) not null, 
+	phone varchar(100) not null,
+    PRIMARY KEY (emp_id),
+    Foreign Key(home_store_id) references Store(store_id);
 );
 CREATE TABLE Inventory (
-	Store_id int,
-	Ingredient_id int,
+	Store_id varchar(100) not null,
+	Ingredient_id int not null,
 	Quantity int,
-	Primary key (store_id, ingredient_id)
+	Primary key (ingredient_id);
+	Foreign Key (store_id) references Store(store_id);
+	Foreign key (ingredient_id) references Recipe(ingredient_id);
 );
 /* removed number as primary key*/
 CREATE TABLE Member (
-	Member_id int,	
-    Name varchar(50) not null,
-	Phone int,
-	Email varchar(50) not null,
-	Address varchar(50) not null,
-    date_init DATE,
-    Primary key (Member_id));
+	Member_id int not null,	
+    Name varchar(100) not null,
+	Phone varchar(100) not null,
+	Email varchar(100) not null,
+	Address varchar(100) not null,
+    year_init int not null,
+    month_init not null,
+    day_init not null,
+    Primary key (Member_id)),
 /* fixed primary key to purchase id*/
 CREATE TABLE Purchase (
-	Purchase_id int,
-	Date datetime,
-	Boba_id int,
-	Quantity int,
-	Price decimal(3, 1),
+	Purchase_id varchar(100) not null,
+	year int not null,
+	month int not null, 
+	day int not null, 
+	Boba_id int not null,
+	Quantity int not null,
+	Price decimal(5, 2) not null,
+	isMember boolean not null,
 	member_id int,
-	isMember boolean,
-	Store_id int,
-	Primary key(Purchase_id, boba_id),
+	Store_id varchar(100) not null,
+	Primary key(Purchase_id),
     Foreign Key(member_id) references Member(member_id));
 
 /* FIXME: allow for suplicate boba_id*/
-CREATE TABLE Recipe (
-    Store_id int,
-	Ingredient_id int,
-	iquantity int,
-	Boba_id int,
-	Primary key (store_id, boba_id),
-	Foreign key (boba_id) references Boba(boba_id)
+CREATE TABLE Recipe (    
+	Store_id varchar(100) not null,
+	Ingredient_id int not null,
+	boba_id int not null,
+	Primary key (boba_id),
+	Foreign key (boba_id) references Boba(boba_id),
+	Foreign key (store_id) references Store(store_id);
 );
 
 CREATE TABLE Store (
-	Store_id int,
-	Name varchar(50) not null,
-	Email varchar(50) not null,
-	Address varchar(50) not null,
-	Primary key (store_id),
-	Foreign key (store_id) REFERENCES Inventory(store_id)
+	Store_id varchar(100) not null,
+	Name varchar(100) not null,
+	Rating decimal (3,2) not null,
+	ddress varchar(100) not null,
+	City varchar(100) not null,
+	Primary key (store_id);
 );
 
 
@@ -69,14 +77,18 @@ CREATE TABLE Store (
  Shipment_number can have duplicates as shipment can have multiple ingredients */
 
 CREATE TABLE Shipment (
-	Order_id int,
-	Shipment_number int,
-	Ingredient_id int,
+	Order_id varchar(100) not null,
+	request_id int not null,
+	Shipment_number int not null,
+	Ingredient_id int not null,
 	Quantity int NOT NULL,
-	Store_id int,
-	Date datetime,
+	Store_id varchar(100) not null,
+	Price decimal(8, 2) not null,
+	date_arrival date,
+	date_request date,
 	Primary key (Order_id),
-    Foreign Key (store_id, ingredient_id) references INVENTORY(store_id, ingredient_id));
+	Foreign key (ingredient_id) references Inventory(ingredient_id),
+	Foreign key (store_id) references Store(store_id);
 	
 INSERT INTO Inventory (store_id, ingredient_id, quantity) values (40, 1, 20);
 INSERT INTO Inventory (store_id, ingredient_id, quantity) values (41, 2, 50);
