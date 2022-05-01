@@ -1,4 +1,25 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+﻿227493,Jane Doe,8769999,abc@aol.com,"51 Jennings St.
+Ponte Vedra Beach, FL 32082",1/1/22
+417382,Alyssa Roach,3725837,def@gmail.com,"52 Broad St.
+Chambersburg, PA 17201",1/2/22
+365848,Teagan Logan,1829432,ghi@yahoo.com,"9839 Lincoln Road
+Jacksonville, NC 28540",2/20/20
+120284,Elliot Wilcox,9394868,jkl@hotmail.com,"881 College St.
+Carpentersville, IL 60110",4/5/21
+923853,Tyler Austin,4892933,mno@gmail.com,"36 St Louis Court
+Ravenna, OH 44266",2/2/22
+502039,Orion Mccoy,1393331,pqr@outlook.com,"7191 East Cherry Hill Street
+Wheeling, WV 26003",9/4/20
+374,1,1,NULL,8,2/28/22
+632,2,1,789394,8,2/27/22
+345,5,2,385683,9,2/28/22
+105,2,3,246451,7,2/20/22
+=======
 Member_id,Name,Phone,Email,Address,date_init
+=======
+>>>>>>> 10643f9c5ba15412c86f59d0e074e17d9c3e48bb
 0,Olivia Khaled,640053676,axqmuvhzsr@gmail.com,"10 School Brow, Appleby-In-Westmorland",2017-07-12
 1,Emma Smith,170779089,ltdgyockmi@gmail.com,"5 Glenwilley, Great Corby",2010-08-03
 2,Ava Johnson,172997445,dumigahaqr@gmail.com,"14 Marlborough Avenue, High Harrington",2013-12-17
@@ -101,3 +122,4 @@ Member_id,Name,Phone,Email,Address,date_init
 99,Adeline Foster,606304154,ydtqkslhvg@oxy.edu,"Old Shap Wells Cottage, Shap",1909-10-23
 100,Maya Jimenez,832393329,ecozeaiiwb@gmail.com,"23 Lawson Street, Aspatria",1959-04-15
 101,Jasmine Reyes,467640058,hqeymunnxn@gmail.com,"146 Pategill Road, Penrith",2017-09-21
+>>>>>>> 92258c3224a0089e0048a7d64a052eabd43db1b6
