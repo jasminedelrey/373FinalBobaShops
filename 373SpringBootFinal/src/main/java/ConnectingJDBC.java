@@ -53,8 +53,8 @@ public class ConnectingJDBC {
 				+ "\n"
 				+ "	boba_id varchar(100) not null,\n"
 				+ "	name varchar(100) not null,\n"
-				+ "	price decimal(3, 1) not null,\n"
-				+ "	review decimal(3, 1) not null,\n"
+				+ "	price decimal(3, 2) not null,\n"
+				+ "	review decimal(3, 2) not null,\n"
 				+ "	primary key(boba_id));\n";
 
 		String createInventorySql = "CREATE TABLE if not exists Inventory(\n"
@@ -63,8 +63,7 @@ public class ConnectingJDBC {
 				+ "	ingredient_id int not null,\n"
 				+ "	quantity int,\n"
 				+ "	primary key(ingredient_id),\n"
-				+ "	foreign key(store_id) references store(store_id),\n"
-				+ "	foreign key(ingredient_id) references recipe(ingredent_id));\n";
+				+ "	foreign key(store_id) references store(store_id));\n";
 		String createMemberSql = "CREATE TABLE if not exists Member(\n"
 				+ "\n"
 				+ "	member_id varchar(100) not null,\n"
@@ -78,6 +77,7 @@ public class ConnectingJDBC {
 				+ "	primary key(member_id));\n";
 		String createPurchaseSql = "CREATE TABLE if not exists Purchase(\n"
 				+ "\n"
+				+ "	id varchar(100) not null,\n"
 				+ "	purchase_id varchar(100) not null,\n"
 				+ "	year int not null,\n"
 				+ "	month int not null,\n"
@@ -86,15 +86,15 @@ public class ConnectingJDBC {
 				+ "	quantity int not null,\n"
 				+ "	price decimal(5,2) not null,\n"
 				+ "	isMember boolean not null,\n"
-				+ "	member_id int,\n"
+				+ "	member_id varchar(100),\n"
 				+ "	store_id varchar(100) not null,\n"
-				+ "	primary key(purchase_id),\n"
+				+ "	primary key(id),\n"
 				+ "	foreign key(member_id) references member(member_id));\n";
 		String createRecipeSql = "CREATE TABLE if not exists Recipe(\n"
 				+ "\n"
 				+ "	store_id varchar(100) not null,\n"
 				+ "	ingredient_id int not null,\n"
-				+ "	boba_id int not null,\n"
+				+ "	boba_id varchar(100) not null,\n"
 				+ "	primary key(boba_id),\n"
 				+ "	foreign key(boba_id) references boba(boba_id),\n"
 				+ "	foreign key(store_id) references store(store_id));\n";
@@ -121,11 +121,11 @@ public class ConnectingJDBC {
 				+ "	foreign key(ingredient_id) references inventory(ingredient_id),\n"
 				+ "	foreign key(store_id) references store(store_id));\n";
 				
-		statement.execute(createEmployeeSql);
+		// statement.execute(createEmployeeSql);
 		// statement.execute(createBobaSql);
 		// statement.execute(createInventorySql);
 		// statement.execute(createMemberSql);
-		// statement.execute(createPurchaseSql);
+		statement.execute(createPurchaseSql);
 		// statement.execute(createRecipeSql);
 		// statement.execute(createStoreSql);
 		// statement.execute(createShipmentSql);
@@ -143,7 +143,7 @@ public class ConnectingJDBC {
 		    while (scanner.hasNextLine()) {
 				List<String> currentRecord = getRecordFromLine(scanner.nextLine());
 		    	employeeRecords.add(currentRecord);
-				System.out.println(currentRecord.get(1));
+				System.out.println(currentRecord.get(3));
 
 				try {
 					statement = conn.prepareStatement(insertSql);
@@ -293,7 +293,7 @@ public class ConnectingJDBC {
 	public static void insertPurchase(Connection conn, String filename) {
 
 		PreparedStatement statement = null;
-		String insertSql = " INSERT into purchase (purchase_id, year, month, day, boba_id, quantity, price, isMember, store_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+		String insertSql = " INSERT into purchase (id, purchase_id, year, month, day, boba_id, quantity, price, is_member, member_id, store_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		// Reading from the csv file
 		List<List<String>> purchaseRecords = new ArrayList<>();
 		try (Scanner scanner = new Scanner(new File("Purchase.csv"));) {
@@ -306,14 +306,16 @@ public class ConnectingJDBC {
 					statement = conn.prepareStatement(insertSql);
 					// setXXX() methods to set the values of these ?
 					statement.setString(1, currentRecord.get(0));
-					statement.setInt(2, Integer.parseInt(currentRecord.get(1)));
+					statement.setString(2, currentRecord.get(1));
 					statement.setInt(3, Integer.parseInt(currentRecord.get(2)));
 					statement.setInt(4, Integer.parseInt(currentRecord.get(3)));
 					statement.setInt(5, Integer.parseInt(currentRecord.get(4)));
 					statement.setInt(6, Integer.parseInt(currentRecord.get(5)));
-					statement.setFloat(7, Float.parseFloat(currentRecord.get(6)));
-					statement.setBoolean(8, Boolean.parseBoolean(currentRecord.get(7)));
-					statement.setString(9, currentRecord.get(8));
+					statement.setInt(7, Integer.parseInt(currentRecord.get(6)));
+					statement.setFloat(8, Float.parseFloat(currentRecord.get(7)));
+					statement.setBoolean(9, Boolean.parseBoolean(currentRecord.get(8)));
+					statement.setString(10, currentRecord.get(9));
+					statement.setString(11, currentRecord.get(10));
 					System.out.println(statement);
 					statement.executeUpdate();
 					// to execute the statememt,
@@ -464,11 +466,11 @@ public class ConnectingJDBC {
 			System.out.println("Connecting to database ...");
 			conn = DriverManager.getConnection(DB_URL, USER, PASSWORD);
 			createTables(conn);
-			insertEmployee(conn, "Employee.csv");
+			// insertEmployee(conn, "Employee.csv");
 			// insertBoba(conn, "Boba.csv");
 			// insertInventory(conn, "Inventory.csv");
 			// insertMember(conn, "Member.csv");
-			// insertPurchase(conn, "Purchase.csv");
+			insertPurchase(conn, "Purchase.csv");
 			// insertRecipe(conn, "Recipe.csv");
 			// insertStore(conn, "Store.csv");
 			// insertShipment(conn, "Shipment.csv");

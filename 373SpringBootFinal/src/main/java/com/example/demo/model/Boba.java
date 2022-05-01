@@ -15,13 +15,16 @@ public class Boba {
 	
 	@Column(name = "name") private String name;
 	
-	@Column(name ="price") private Long price;
+	@Column(name ="price") private Float price;
+	
+	@Column(name ="review") private Float review;
 	
 	public Boba () {}
 	
-	public Boba(String name, Long price) {
+	public Boba(String name, Float price, Float review) {
 		this.name = name;
 		this.price = price;
+		this.review = review;
 	}
 	
 	public long getBoba_id() {
@@ -32,8 +35,12 @@ public class Boba {
 		return name;
 	}
 	
-	public Long getPrice() {
+	public Float getPrice() {
 		return price;
+	}
+	
+	public Float getReview() {
+		return review;
 	}
 	
 	public void setBoba_id(long boba_id) {
@@ -44,8 +51,12 @@ public class Boba {
 		this.name = name;
 	}
 	
-	public void setPrice(Long price) {
+	public void setPrice(Float price) {
 		this.price = price;
+	}
+	
+	public void setReview(Float price) {
+		this.review = review;
 	}
 	
 

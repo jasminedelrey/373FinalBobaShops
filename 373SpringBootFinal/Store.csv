@@ -8,7 +8,7 @@ gong-cha-fremont,Gong Cha,4,46827 Warm Springs Blvd,Fremont
 happy-lemon-fremont-2,Happy Lemon,4.5,46873 Warm Spring Blvd,Fremont
 factory-tea-bar-fremont-2,Factory Tea Bar,3.5,46461 Mission Blvd,Fremont
 super-cue-cafe-fremont,Super Cue Cafe,3.5,43743 Boscell Rd,Fremont
-milk-and-honey-cafe-fremont,Milk and Honey Cafe,3.5,NULL,Fremont
+milk-and-honey-cafe-fremont,Milk and Honey Cafe,3.5,34265 Fremont Blvd,Fremont
 tea-island-fremont-2,Tea Island,4,46196 Warm Springs Blvd,Fremont
 taro-taro-dessert-and-tea-house-fremont,Taro Taro Dessert & Tea House,3.5,6018 Stevenson Blvd,Fremont
 i-tea-fremont-2,i-Tea,3.5,43421 Christy St,Fremont
@@ -72,7 +72,7 @@ wondertea-san-francisco-4,Wondertea,4.5,2250 Irving St,San Francisco
 the-boba-shop-san-francisco-4,The Boba Shop,4.5,2071 3rd St,San Francisco
 steep-creamery-and-tea-san-francisco,STEEP Creamery & Tea,4,270 Brannan St,San Francisco
 bubblecup-san-francisco-2,Bubblecup,3.5,1900 Clement St,San Francisco
-sweet-a-little-san-francisco-12,Sweet A Little,4.5,NULL,San Francisco
+sweet-a-little-san-francisco-12,Sweet A Little,4.5,,San Francisco
 tea-hut-san-francisco-2,Tea Hut,4.5,2815 California St,San Francisco
 i-tea-san-francisco-2,i-Tea,3.5,2150 Irving St,San Francisco
 tancca-san-francisco-3,Tancca,4.5,5015 Geary Blvd,San Francisco
@@ -141,7 +141,7 @@ teahee-san-jose,Teahee,4,979 Story Rd,San Jose
 boba-pub-san-jose,Boba Pub,4,1576 Branham Ln,San Jose
 teaspoon-san-jose-2,Teaspoon,4,4328 Moorpark Ave,San Jose
 passion-t-snacks-and-desserts-san-jose,Passion-T Snacks and Desserts,4,2266 Senter Rd,San Jose
-pop-up-tea-coffee-and-snacks-san-jose,Pop Up Tea Coffee & Snacks,4,185 Branham Ln,San Jose
+pop-up-tea-coffee-and-snacks-san-jose,"Pop Up Tea Coffee & Snacks",4,185 Branham Ln,San Jose
 happy-lemon-san-jose-5,Happy Lemon,4.5,3005 Silver Creek Rd,San Jose
 boba-bar-san-jose-3,Boba Bar,3.5,310 S 3rd St,San Jose
 sinceretea-san-jose-2,Sinceretea,4,392 E Taylor St,San Jose
@@ -192,7 +192,7 @@ sushi-grill-vallejo,Sushi Grill,4,5184 Sonoma Blvd,Vallejo
 palm-thai-bistro-fairfield,Palm Thai Bistro,4.5,5089 Business Center Dr,Fairfield
 green-bamboo-restaurant-fairfield,Green Bamboo Restaurant,3.5,4437 Central Pl,Fairfield
 thai-kitchen-american-canyon,Thai Kitchen,3.5,3425 Broadway St,American Canyon
-sactomofo-sacramento-6,SactoMofo,3.5,NULL,Sacramento
+sactomofo-sacramento-6,SactoMofo,3.5,,Sacramento
 westea-pleasanton,Westea,4,4233 Rosewood Dr,Pleasanton
 baotea-cafe-pleasanton-2,BaoTea Cafe,4.5,6654 Koll Center Pkwy,Pleasanton
 i-tea-dublin-dublin,i-Tea - Dublin,4,4064 Grafton St,Dublin
@@ -501,7 +501,7 @@ pho-lee-hoa-phat-pleasant-hill,Pho Lee Hoa Phat,3.5,508 Contra Costa Blvd,Pleasa
 pho-huynh-hiep-6-kevins-noodle-house-walnut-creek,Pho Huynh Hiep 6 - Kevin's Noodle House,4,2034 N Main St,Walnut Creek
 smitten-ice-cream-lafayette,Smitten Ice Cream,3.5,3545 Mt Diablo Blvd,Lafayette
 aung-maylika-benicia-4,Aung Maylika,4.5,836 Southampton Rd,Benicia
-izzyas-frozen-custard-lafayette-2,IzzyA's Frozen Custard,4.5,NULL,Lafayette
+izzyas-frozen-custard-lafayette-2,IzzyA's Frozen Custard,4.5,,Lafayette
 yogurtland-pleasant-hill,Yogurtland,4,2390 Monument Blvd,Pleasant Hill
 golden-bakery-pittsburg,Golden Bakery,5,2229 Railroad Ave,Pittsburg
 tutti-frutti-montclair-oakland,Tutti Frutti Montclair,4,2066 Mountain Blvd,Oakland
@@ -539,7 +539,7 @@ quickly-hayward,Quickly,2.5,25034 Hesperian Blvd,Hayward
 polaris-ice-cream-rolls-hayward,Polaris Ice Cream Rolls,4,595 Southland Mall,Hayward
 milkcow-castro-valley,Milkcow,3.5,3223 Castro Valley Blvd,Castro Valley
 satori-tea-company-saratoga,Satori Tea Company,3.5,14482 Big Basin Way,Saratoga
-creative-sips-san-jose,Creative Sips,4,NULL,San Jose
+creative-sips-san-jose,Creative Sips,4,,San Jose
 saratoga-bagels-saratoga,Saratoga Bagels,4.5,12840 Saratoga Sunnyvale Rd,Saratoga
 snowflake-san-jose,Snowflake,3.5,4306 Moorpark Ave,San Jose
 steepers-campbell,Steepers,4.5,346 E Campbell Ave,Campbell
@@ -563,11 +563,11 @@ tacos-jalisco-vallejo,Tacos Jalisco,4,3420 Sonoma Blvd,Vallejo
 menchies-frozen-yogurt-belmont-2,Menchie's Frozen Yogurt,4,1200 El Camino Real,Belmont
 fashion-wok-foster-city,Fashion Wok,4,929 A Edgewater Blvd,Foster City
 pho-new-saigon-foster-city,Pho New Saigon,3.5,1088 Foster City Blvd,Foster City
-hongry-kong-belmont-2,Hongry Kong,3.5,NULL,Belmont
+hongry-kong-belmont-2,Hongry Kong,3.5,,Belmont
 marina-food-san-mateo,Marina Food,3,2992 S Norfolk St,San Mateo
 cooking-papa-restaurant-foster-city,Cooking Papa Restaurant,3.5,949A Edgewater Blvd,Foster City
 sheng-kee-bakery-san-mateo-2,Sheng Kee Bakery,3,2964 S Norfolk St,San Mateo
-eat-on-monday-mountain-view-3,Eat On Monday,4.5,NULL,Mountain View
+eat-on-monday-mountain-view-3,Eat On Monday,4.5,,Mountain View
 pho-little-saigon-san-mateo,Pho Little Saigon,3,2978 S Norfolk St,San Mateo
 myung-dong-tofu-cabin-san-mateo,Myung Dong Tofu Cabin,3.5,2968 S Norfolk St,San Mateo
 bagel-street-cafe-redwood-city,Bagel Street Cafe,3,254 Redwood Shores Pkwy,Redwood City

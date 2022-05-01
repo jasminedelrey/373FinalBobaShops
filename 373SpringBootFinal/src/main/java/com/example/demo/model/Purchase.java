@@ -2,9 +2,13 @@ package com.example.demo.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import java.util.Date;
 
@@ -13,20 +17,30 @@ import java.util.Date;
 
 public class Purchase {
 	
-@Id @GeneratedValue(strategy=GenerationType.IDENTITY) private Integer Purchase_id;
+@Id private String id;
 	
-	@Column(name = "Date") private Date Date;
+	@Column(name = "purchase_id") private String purchase_id;
+	@Column(name = "Year") private Integer year;
+	@Column(name = "Month") private Integer month;
+	@Column(name = "Day") private Integer day;
 	@Column(name ="Boba_id") private Integer Boba_id;
 	@Column(name="Quantity") private Integer Quantity;
-	@Column(name="Price") private Integer Price;	
-	@Column(name="member_id") private Integer member_id;
+	@Column(name="Price") private Float Price;	
 	@Column(name="isMember") private boolean isMember;
-    @Column(name="Store_id") private Integer Store_id;
+	@Column(name="member_id") private String member_id;
+    @Column(name="Store_id") private String Store_id;
+    
+//	@ManyToOne
+//	@JoinColumn(foreignKey = @ForeignKey(name="member_id", foreignKeyDefinition = "foreign key /* FK */ (member_id) references Member"))
+//	public Member member;
 
 	public Purchase () {}
 	
-	public Purchase (Date Date, Integer Boba_id, Integer Quantity, Integer Price, Integer member_id,  boolean isMember, Integer Store_id ) {
-		this.Date = Date;
+	public Purchase (Integer year, Integer month, Integer day, Integer Boba_id, Integer Quantity, Float Price, String member_id,  boolean isMember, String Store_id ) {
+		this.purchase_id = purchase_id;
+		this.month = month;
+		this.year = year;
+		this.day = day;
 		this.Boba_id = Boba_id;
 		this.Quantity = Quantity;
 		this.Price = Price;
@@ -35,52 +49,79 @@ public class Purchase {
         this.Store_id = Store_id;
 	}
 	
-	public Date getDate() {
-		return Date;
+	public Integer getDay() {
+		return day;
 	}
+	public String getId() {
+		return id;
+	}
+	public Integer getMonth() {
+		return month;
+	}
+	public Integer getYear() {
+		return year;
+	}
+	
     public Integer getBoba_id() {
 		return Boba_id;
 	}
     public Integer getQuantity() {
 		return Quantity;
 	}
-    public Integer getPrice() {
+    public Float getPrice() {
 		return Price;
 	}
-    public Integer getMemberId() {
+    public String getMemberId() {
 		return member_id;
 	}
     public boolean isMember() {
 		return isMember;
 	}
-    public Integer getStoreId() {
+    public String getStoreId() {
 		return Store_id;
 	}
-
-    public void setDate(Date Date) {
-		this.Date = Date;
+    
+    public String getPurchase_id() {
+		return purchase_id;
 	}
-	public void setPurchaseId(Integer Purchase_id) {
-		this.Purchase_id = Purchase_id;
+    
+    public void setBoba_id(Integer boba_id) {
+		Boba_id = boba_id;
 	}
-	public void setBoba_id(Integer Boba_id) {
-		this.Boba_id = Boba_id;
+    public void setDay(Integer day) {
+		this.day = day;
 	}
-    public void setQuantity(Integer Quantity) {
-		this.Quantity = Quantity;
+    public void setId(String id) {
+		this.id = id;
 	}
-    public void setPrice(Integer Price) {
-		this.Price = Price;
-	}
-	public void setMember_id(Integer member_id) {
+    public void setMember_id(String member_id) {
 		this.member_id = member_id;
 	}
-    public void setIsMember(boolean isMember) {
+    public void setMember(boolean isMember) {
 		this.isMember = isMember;
-    }
-    public void setStore_id(Integer Store_id) {
-		this.Store_id = Store_id;
 	}
+    public void setMonth(Integer month) {
+		this.month = month;
+	}
+    public void setPrice(Float price) {
+		Price = price;
+	}
+    public void setPurchase_id(String purchase_id) {
+		this.purchase_id = purchase_id;
+	}
+    public void setQuantity(Integer quantity) {
+		Quantity = quantity;
+	}
+    public void setStore_id(String store_id) {
+		Store_id = store_id;
+	}
+    public void setYear(Integer year) {
+		this.year = year;
+	}
+    
+
+   
+
 
 
 	

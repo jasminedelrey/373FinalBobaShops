@@ -2,9 +2,12 @@ package com.example.demo.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -13,20 +16,26 @@ import javax.persistence.Table;
 public class Employee {
 	
 @Id @GeneratedValue(strategy=GenerationType.IDENTITY) private Integer emp_id;
-	
-	@Column(name = "home_store_id") private Integer home_store_id;
-	
-	@Column(name ="name") private String name;
-	
-	@Column(name="phone") private Integer phone;
+
+	@Column(name="address") private String address;
 	
 	@Column(name="email") private String email;
 	
-	@Column(name="address") private String address;
+	@Column(name = "home_store_id") private String home_store_id;
+	
+	@Column(name ="name") private String name;
+	
+	@Column(name="phone") private String phone;
+	
+//	@ManyToOne
+//	@JoinColumn(foreignKey = @ForeignKey(name="home_store_id", foreignKeyDefinition = "foreign key /* FK */ (store_id) references Store"))
+//	public Store store;
+	
 	
 	public Employee () {}
 	
-	public Employee (Integer home_store_id, String name, Integer phone, String email, String address) {
+	public Employee (Integer emp_id, String home_store_id, String name, String phone, String email, String address) {
+		this.emp_id = emp_id;
 		this.home_store_id = home_store_id;
 		this.name = name;
 		this.phone = phone;
@@ -46,7 +55,7 @@ public class Employee {
 		return emp_id;
 	}
 	
-	public Integer getHome_store_id() {
+	public String getHome_store_id() {
 		return home_store_id;
 	}
 	
@@ -54,7 +63,7 @@ public class Employee {
 		return name;
 	}
 	
-	public Integer getPhone() {
+	public String getPhone() {
 		return phone;
 	}
 	
@@ -70,7 +79,7 @@ public class Employee {
 		this.emp_id = emp_id;
 	}
 	
-	public void setHome_store_id(Integer home_store_id) {
+	public void setHome_store_id(String home_store_id) {
 		this.home_store_id = home_store_id;
 	}
 	
@@ -78,7 +87,7 @@ public class Employee {
 		this.name = name;
 	}
 	
-	public void setPhone(Integer phone) {
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 	

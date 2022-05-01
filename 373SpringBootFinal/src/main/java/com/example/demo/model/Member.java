@@ -13,35 +13,48 @@ import javax.persistence.Table;
 @Table(name="member")
 public class Member {
 
-	@Id @GeneratedValue(strategy=GenerationType.IDENTITY) private Integer member_id;
+	@Id private String member_id;
 	@Column(name="name") private String name;
 	@Column(name="phone") private Integer phone;
 	@Column(name="email") private String email;
 	@Column(name="address") private String address;
-	@Column(name="date_init")private Date date_init;
+	@Column(name="year_init")private Integer year_init;
+	@Column(name="month_init")private Integer month_init;
+	@Column(name="day_init")private Integer day_init;
 	
 	public Member() {}
-	public Member(Integer member_id, String name, Integer phone, String email, String address, Date date_init) {
+	public Member(String member_id, String name, Integer phone, String email, String address, Integer year_init,
+			Integer month_init, Integer day_init) {
 		this.member_id = member_id;
 		this.phone = phone;
 		this.email = email;
 		this.address = address;
-		this.date_init = date_init;
+		this.year_init = year_init;
+		this.month_init = month_init;
+		this.day_init = day_init;
 	}
 	
 	public String getAddress() {
 		return address;
 	}
 	
-	public Date getDate_init() {
-		return date_init;
+	public Integer getYear_init() {
+		return year_init;
+	}
+	
+	public Integer getMonth_init() {
+		return month_init;
+	}
+	
+	public Integer getDay_init() {
+		return day_init;
 	}
 	
 	public String getEmail() {
 		return email;
 	}
 	
-	public Integer getMember_id() {
+	public String getMember_id() {
 		return member_id;
 	}
 	
@@ -57,15 +70,23 @@ public class Member {
 		this.address = address;
 	}
 	
-	public void setDate_init(Date date_init) {
-		this.date_init = date_init;
+	public void setDay_init(Integer day_init) {
+		this.day_init = day_init;
+	}
+	
+	public void setMonth_init(Integer month_init) {
+		this.month_init = month_init;
+	}
+	
+	public void setYear_init(Integer year_init) {
+		this.year_init = year_init;
 	}
 	
 	public void setEmail(String email) {
 		this.email = email;
 	}
 	
-	public void setMember_id(Integer member_id) {
+	public void setMember_id(String member_id) {
 		this.member_id = member_id;
 	}
 	

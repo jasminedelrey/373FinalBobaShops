@@ -1,28 +1,36 @@
 package com.example.demo.model;
 
 import java.io.Serializable;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="inventory")
 
-public class Inventory implements Serializable {
+public class Inventory {
 
-	@Id private Integer store_id;
+	@Column(name="store_id") private String store_id;
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY) private Integer ingredient_id;
 	@Column(name="quantity") private Integer quantity;
+	
+//	@ManyToOne
+//	@JoinColumn(name="store_id", nullable = false)
+//	private Store store;
 	
 	public Inventory() {
 	
 	}
 	
-	public Inventory(Integer quantity, Integer store_id) {
+	public Inventory(Integer quantity, String store_id) {
 		this.quantity = quantity;
 		this.store_id = store_id;
 	}
@@ -35,7 +43,7 @@ public class Inventory implements Serializable {
 		return quantity;
 	}
 	
-	public Integer getStore_id() {
+	public String getStore_id() {
 		return store_id;
 	}
 	
@@ -47,7 +55,7 @@ public class Inventory implements Serializable {
 		this.quantity = quantity;
 	}
 	
-	public void setStore_id(Integer store_id) {
+	public void setStore_id(String store_id) {
 		this.store_id = store_id;
 	}
 	
