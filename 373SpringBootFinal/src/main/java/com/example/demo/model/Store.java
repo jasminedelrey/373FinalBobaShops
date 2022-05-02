@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -21,8 +22,8 @@ public class Store {
 	@Column(name="address") private String address;
 	@Column(name="city") private String city;
 	
-//	@OneToMany(mappedBy = "store")
-//	private List<Inventory> inventory;
+//	@OneToOne(mappedBy = "store")
+//    private Employee employee;
 	
 	public Store() {}
 	

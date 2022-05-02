@@ -63,7 +63,7 @@ public class StoreController {
 		return ResponseEntity.ok(updatedStore);
 	}
 	
-	// delete a store
+	// delete a store // delete employees!
 	@DeleteMapping("/delete-store/{store_id}")
 	public ResponseEntity<Map<String, Boolean>> deleteStore(@PathVariable String store_id){
 		

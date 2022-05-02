@@ -121,14 +121,15 @@ public class ConnectingJDBC {
 				+ "	foreign key(ingredient_id) references inventory(ingredient_id),\n"
 				+ "	foreign key(store_id) references store(store_id));\n";
 				
-		// statement.execute(createEmployeeSql);
-		// statement.execute(createBobaSql);
-		// statement.execute(createInventorySql);
-		// statement.execute(createMemberSql);
+
+		statement.execute(createBobaSql);
+		statement.execute(createMemberSql);
+		statement.execute(createStoreSql);
+		statement.execute(createEmployeeSql);
+		statement.execute(createInventorySql);
 		statement.execute(createPurchaseSql);
-		// statement.execute(createRecipeSql);
-		// statement.execute(createStoreSql);
-		// statement.execute(createShipmentSql);
+		statement.execute(createRecipeSql);
+		statement.execute(createShipmentSql);
 		
 	}
 	
@@ -466,14 +467,14 @@ public class ConnectingJDBC {
 			System.out.println("Connecting to database ...");
 			conn = DriverManager.getConnection(DB_URL, USER, PASSWORD);
 			createTables(conn);
-			// insertEmployee(conn, "Employee.csv");
-			// insertBoba(conn, "Boba.csv");
-			// insertInventory(conn, "Inventory.csv");
-			// insertMember(conn, "Member.csv");
+			insertEmployee(conn, "Employee.csv");
+			insertBoba(conn, "Boba.csv");
+			insertInventory(conn, "Inventory.csv");
+			insertMember(conn, "Member.csv");
 			insertPurchase(conn, "Purchase.csv");
-			// insertRecipe(conn, "Recipe.csv");
-			// insertStore(conn, "Store.csv");
-			// insertShipment(conn, "Shipment.csv");
+			insertRecipe(conn, "Recipe.csv");
+			insertStore(conn, "Store.csv");
+			insertShipment(conn, "Shipment.csv");
 			
 			
 		}catch(SQLException ex) {
