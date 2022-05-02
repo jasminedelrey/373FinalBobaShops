@@ -37,58 +37,20 @@ public class MemberController {
 		return memberRepository.findAll();
 		// select * from employee
 	}
-}
 	
-	// write a method that adds an employee to the db
-	// when sending data to your server
-	// it is better to send it in a request body
-	// http://localhost:8080/api/v1/addemployee
-//	@PostMapping("/addemployee")
-//	public Member addEmployee(@RequestBody Member e) {
-//		return memberRepository.save(e);
-		// insert into employee (home_store_id, name, phone, email, address)
-		// values (e.home_store_id, e.name, e.phone, e.email, e.address)
-//	}
-	// http://localhost:8080/api/v1/employee/{id}
-
-	// write a method to return an employee by its id
-//	@GetMapping("/employee/{emp_id}")
-//	public ResponseEntity<Employee> 
-//				getEmployeeById(@PathVariable Integer emp_id) {
-//		// findById(id)
-//		Employee employee = employeeRepository.findById(emp_id)
-//				.orElseThrow( 
-//						() -> new ResourceNotFoundException("Employee #" 
-//												+ emp_id + " not found"));	
-//		return ResponseEntity.ok(employee);		
-//	}
-	
-	
-	// update an employee 
-//	@PutMapping("/member/{member_id}") // You can have the same api path but different request methods
-//	public ResponseEntity<Member> updateEmployee(@PathVariable Integer member_id, @RequestBody Member updatedE){
-//		Employee employee = memberRepository.findById(member_id)
-//				.orElseThrow(() -> new ResourceNotFoundException("Member " + member_id + " not found."));
-//		
-//		employee.setName(updatedE.getName());
-//		employee.setPhone(updatedE.getPhone());
-//		employee.setEmail(updatedE.getEmail());
-//		employee.setAddress(updatedE.getAddress());
-//		employee.setHome_store_id(updatedE.getHome_store_id());
-//		Employee updatedEmployee = employeeRepository.save(employee);
-//		return ResponseEntity.ok(updatedEmployee);
-//	}
+	// return member's list of purchases.
 	
 	// delete an employee
-//	@DeleteMapping("/employees/{emp_id}")
-//	public ResponseEntity<Map<String, Boolean>> deleteEmployee(@PathVariable Integer emp_id){
-//		
-//		Employee employee = employeeRepository.findById(emp_id)
-//				.orElseThrow(() -> new ResourceNotFoundException("Employee " + emp_id + " not found."));
-//		
-//		employeeRepository.delete(employee);
-//		Map<String, Boolean> response = new HashMap<>();
-//		response.put(employee.getEmp_id()+" is deleted", true);
-//		return ResponseEntity.ok(response);
-//	}
+	@DeleteMapping("p")
+	public ResponseEntity<Map<String, Boolean>> deleteEmployee(@PathVariable String member_id){
+		
+		Member member = memberRepository.findById(member_id)
+				.orElseThrow(() -> new ResourceNotFoundException("Member " + member_id + " not found."));
+		
+		memberRepository.delete(member);
+		Map<String, Boolean> response = new HashMap<>();
+		response.put(member.getMember_id()+" is deleted", true);
+		return ResponseEntity.ok(response);
+	}
+}
 //	

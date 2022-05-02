@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.misc.ResourceNotFoundException;
+import com.example.demo.model.Boba;
 import com.example.demo.model.Employee;
 import com.example.demo.repository.EmployeeRepository;
 
@@ -62,6 +63,8 @@ public class EmployeeController {
 		return ResponseEntity.ok(employee);		
 	}
 	
+	//write a method to return employees by store
+	
 	
 	// update an employee 
 	@PutMapping("/employees/{emp_id}") // You can have the same api path but different request methods
@@ -89,6 +92,13 @@ public class EmployeeController {
 		Map<String, Boolean> response = new HashMap<>();
 		response.put(employee.getEmp_id()+" is deleted", true);
 		return ResponseEntity.ok(response);
+	}
+	
+	// find employees by store
+	
+	@GetMapping("/find-employees-by-store/{store_id}")
+	public List<Employee> getEmployeesByStore(@PathVariable("store_id") String store_id) {
+		return employeeRepository.findEmployeesByStore(store_id);
 	}
 	
 }
