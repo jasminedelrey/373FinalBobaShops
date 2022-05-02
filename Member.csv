@@ -1,125 +1,103 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-﻿227493,Jane Doe,8769999,abc@aol.com,"51 Jennings St.
-Ponte Vedra Beach, FL 32082",1/1/22
-417382,Alyssa Roach,3725837,def@gmail.com,"52 Broad St.
-Chambersburg, PA 17201",1/2/22
-365848,Teagan Logan,1829432,ghi@yahoo.com,"9839 Lincoln Road
-Jacksonville, NC 28540",2/20/20
-120284,Elliot Wilcox,9394868,jkl@hotmail.com,"881 College St.
-Carpentersville, IL 60110",4/5/21
-923853,Tyler Austin,4892933,mno@gmail.com,"36 St Louis Court
-Ravenna, OH 44266",2/2/22
-502039,Orion Mccoy,1393331,pqr@outlook.com,"7191 East Cherry Hill Street
-Wheeling, WV 26003",9/4/20
-374,1,1,NULL,8,2/28/22
-632,2,1,789394,8,2/27/22
-345,5,2,385683,9,2/28/22
-105,2,3,246451,7,2/20/22
-=======
-Member_id,Name,Phone,Email,Address,date_init
-=======
->>>>>>> 10643f9c5ba15412c86f59d0e074e17d9c3e48bb
-0,Olivia Khaled,640053676,axqmuvhzsr@gmail.com,"10 School Brow, Appleby-In-Westmorland",2017-07-12
-1,Emma Smith,170779089,ltdgyockmi@gmail.com,"5 Glenwilley, Great Corby",2010-08-03
-2,Ava Johnson,172997445,dumigahaqr@gmail.com,"14 Marlborough Avenue, High Harrington",2013-12-17
-3,Charlotte Williams,899597855,ksvvenrdem@oxy.edu,"4 Cairn Terrace, Heads Nook",1941-11-26
-4,Sophia Brown,203473592,peqgzybcbr@yahoo.com,"Beinn Eighe, Grange",1933-05-08
-5,Amelia Jones,470408397,okaigfzvjb@aol.com,"Fircones, Talkin",1932-05-04
-6,Isabella Garcia,336899351,gdmuebponn@aol.com,"Ivy Cottage, Gosforth",1937-10-04
-7,Mia Miller,914159499,gsplcgzhpy@bobalover.com,"77 Beech Grove, Stanwix",1923-12-07
-8,Evelyn Davis,397869311,bssxsccmrp@gmail.com,"Rockcliffe, Shap",1968-03-05
-9,Harper Rodriguez,499722429,ircsjlbxln@bobalover.com,"4 Railway Cottages, Low Row",1923-05-01
-10,Camila Martinez,189387071,hpxcqyqnnb@bobalover.com,"Holmsdale, Wigton Road, Silloth",1963-12-04
-11,Gianna Hernandez,688897239,vbwlgcsbql@yahoo.com,"4 Hilden Road, Cleator",1914-12-25
-12,Abigail Lopez,164092911,hrjtdregdu@oxy.edu,"1 Castle Meadows, Whitehaven",1932-05-08
-13,Luna Gonzales,142526588,xilsymhppa@oxy.edu,"47 Market Hill, Wigton",2011-05-17
-14,Ella Wilson,260980401,jeweewxlxj@yahoo.com,"7 Barton Dale, Lazonby",1918-07-14
-15,Elizabeth Anderson,942093512,jgjnofrmql@gmail.com,"54 Brampton Road, Carlisle",2005-07-11
-16,Sofia Thomas,477808799,skitwcuzhr@bobalover.com,"8 Kirkstone Road, Whitehaven",1941-03-07
-17,Emily Taylor,959329564,pvfiqlwkop@bobalover.com,"1 Pine Vale Cottages, Thornthwaite",2004-05-12
-18,Avery Moore,896218067,negceviybz@aol.com,"28 Robert Owen Avenue, Cleator Moor",1975-02-29
-19,Mila Jackson,408004698,aftmmrsigz@bobalover.com,"Cherry Tree Cottage, Ousby",1987-02-25
-20,Scarlett Martin,144479343,xdwvlwtgae@gmail.com,"9 Bradbury Avenue, Maryport",1910-12-27
-21,Eleanor Lee,161656446,zebhfjlfpc@yahoo.com,"22 Albert Street, Workington",1951-11-18
-22,Madison Perez,998829610,epyputcqwc@aol.com,"Sunnydene, Fletchertown",1982-06-11
-23,Layla Thompson,669505529,fkosrslsqt@bobalover.com,"10 Browside Road, Dearham",1944-10-17
-24,Penelope White,111967998,oejmfeyvat@aol.com,"2 Brigham Hill Mansion, Brigham",1952-03-18
-25,Aria Harris,793850936,dlwspeapym@gmail.com,"37 London Road, Carlisle",1953-06-04
-26,Chloe Sanchez,729363590,pvgartxnwc@gmail.com,"11 Yew Tree Court, Carlisle",2015-03-28
-27,Grace Clark,396461950,kfrjtkfuke@yahoo.com,"23 Petteril Street, Carlisle",1956-05-08
-28,Ellie Ramirez,525569847,fzgwdcftjc@yahoo.com,"269 Newtown Road, Carlisle",1916-09-09
-29,Nora Lewis,620365376,xcjoqjydpp@aol.com,"226 Scalegate Road, Carlisle",2010-03-07
-30,Hazel Robinson,742546959,hfwtztmmmr@bobalover.com,"Stonegarth, North End, Burgh By Sands",1928-06-26
-31,Zoey Walker,445293479,ohkvxrbaaa@aol.com,Hangar 29 Carlisle Airport,1955-12-28
-32,Riley Young,741941062,rvgbgkcagh@bobalover.com,"Uppertown Court, Kirklinton",1908-09-16
-33,Victoria Allen,137067297,eszjvsixns@gmail.com,"2 Lake Road, Keswick",1968-07-29
-34,Lily King,726276826,mpvijnoexo@gmail.com,"8 Hadrian Way, Houghton",1950-01-26
-35,Aurora Wright,912538593,ciewdgdaog@aol.com,"9 Cairn Wood, Heads Nook",1961-03-23
-36,Violet Scott,409597684,hlkagkqqjr@yahoo.com,"4 Finn Avenue, Carlisle",1912-12-30
-37,Nova Torres,599291767,oxlsavtboc@gmail.com,"3 Northumberland Street, Workington",1935-08-08
-38,Hannah Nguyen,286306717,pusrpbdoca@gmail.com,"12 St Benedicts Way, Wetheral",1923-07-26
-39,Emilia Hill,200207665,iokwhaajip@aol.com,"The Saltings, Port Carlisle",2001-08-01
-40,Zoe Flores,183706573,acyuhhwwth@bobalover.com,"8 Chestnut Park, Keswick",1952-10-17
-41,Stella Green,878954784,nhktftails@aol.com,"71 High Brigham, Brigham",2017-06-01
-42,Everly Adams,345438619,vdriamyohl@aol.com,"Middleton House, Waverbridge",1922-02-27
-43,Isla Nelson,732737644,rsacgryxyu@oxy.edu,"Smith House, 14A - 14E Church Street, Whitehaven",1997-01-08
-44,Leah Baker,832595537,nzkfgxuaeb@aol.com,"14 Union Street, Wigton",1962-10-13
-45,Lillian Hall,534483444,cjvjwzlivi@yahoo.com,"Oak Cottage, Townhead Farm, Newbiggin",1997-11-01
-46,Addison Rivera,283357076,rmjkxzmbct@aol.com,"7 The Acre, Newton Arlosh",1936-01-21
-47,Willow Campbell,842025404,aonapgsgys@yahoo.com,"4 Ashley Way, Egremont",1915-02-08
-48,Lucy Mitchell,272395719,rywdkycpzu@yahoo.com,"4 Highbank Court, Eamont Bridge",1983-04-22
-49,Paisley Carter,587377854,huzyezlwxo@oxy.edu,"9 The Acre, Newton Arlosh",1985-08-22
-50,Natalie Roberts,125796579,rsowgbuqur@gmail.com,"23 Moorside Drive, Carlisle",1987-12-15
-51,Naomi Gomez,703695039,beuczsexgf@gmail.com,"27 Ehen Road, Thornhill",2021-04-09
-52,Eliana Phillips,795566739,myawilhxol@gmail.com,"5 Barnett Drive, Seaton",1994-12-17
-53,Brooklyn Evans,373099845,vegrfimvwx@yahoo.com,"Loshville, 15 Etterby Scaur, Carlisle",1912-06-15
-54,Elena Turner,905635880,gtahuyisrw@gmail.com,"Flat 7, Royal Oak House, Station Street, Keswick",1965-12-27
-55,Aubrey Diaz,944055872,bwibnqfjep@yahoo.com,"Redgables House, Red Gables, Greenrow",1937-04-12
-56,Claire Parker,778226403,rrqncvurdb@yahoo.com,"Baggrow Farm Cottage, Baggrow",1935-06-26
-57,Ivy Cruz,499312630,dioztcjujq@bobalover.com,"68 Loweswater Avenue, Whitehaven",1975-11-09
-58,Kinsley Edwards,627409210,tgszflviuh@gmail.com,"4 Crossings Terrace, Maryport",1945-01-22
-59,Audrey Collins,815322048,iaefpszipl@aol.com,"18 Bishops Way, Dalston",1927-07-12
-60,Maya Reyes,477571676,nekjzmdowv@yahoo.com,"7 Finkle Street, Carlisle",1968-09-29
-61,Genesis Stewart,107505552,rkookdcqvt@bobalover.com,"25 Esther Street, Carlisle",1960-11-08
-62,Skylar Morris,443995956,rfsrqrsate@bobalover.com,"Glasson House, Glasson Industrial Estate, Maryport",1933-03-04
-63,Bella Morales,233230862,axkmrysafh@bobalover.com,"9 Woodbank, Egremont",1964-04-09
-64,Aaliyah Murphy,273497600,tfgipeuivk@gmail.com,"36 The Green, Whitehaven",1916-06-05
-65,Madelyn Cook,476561931,djdeiwlnbf@aol.com,"6 Railway Terrace, Gilsland",1969-11-02
-66,Savannah Rogers,773041985,cqlsakwlfj@aol.com,"374 London Road, Carlisle",1992-07-06
-67,Anna Gutierrez,147610292,vjvsefhzys@bobalover.com,"69 Scotland Road, Penrith",2004-05-20
-68,Delilah Ortiz,909743620,rizceaifwz@yahoo.com,"51 Brierydale Lane, Stainburn",1984-03-11
-69,Serenity Morgan,958230234,fcbemphwvx@bobalover.com,"36 Noble Croft, Aspatria",1966-10-14
-70,Caroline Cooper,418964808,pcwpzpbpel@oxy.edu,"68 Kingmoor Road, Carlisle",1990-04-12
-71,Kennedy Peterson,481146317,ourznyrjdv@gmail.com,"2 Beach Street, Workington",1956-06-03
-72,Valentina Bailey,647090514,roppgczvrn@oxy.edu,"32 Gaitle Bridge, Gaitle",1925-05-04
-73,Ruby Reed,424406154,dgeurhywxo@bobalover.com,"2 Shepherds Garth, Great Asby",2002-11-05
-74,Sophie Kelly,441805097,xycggaqahu@yahoo.com,"80 Ridley Road, Carlisle",1980-04-29
-75,Alice Howard,520216300,zgwoeusess@gmail.com,"Milligan Motors, Blackwood Road, Lillyhall Industrial Estate",1969-11-13
-76,Gabriella Ramos,171401899,vjiktqqkif@bobalover.com,"6 Croasdale Avenue, Whitehaven",1956-12-01
-77,Sadie Kim,912782700,kgpespkuwf@gmail.com,"Halcyon House, Capon Hill, Brampton",1920-07-05
-78,Ariana Cox,725327570,bttidgotsx@yahoo.com,"9 Cromwell Terrace, Cockermouth",1943-02-20
-79,Allison Ward,995729926,bbitaluhwj@oxy.edu,"1 Close Cottages, Well Lane, Stanwix",1955-01-12
-80,Hailey Richardson,857945787,frgiexwael@yahoo.com,"6 Sunny Bank, Threlkeld",1915-11-06
-81,Autumn Watson,856407049,qpyzrwtbec@aol.com,"10 Cedar Crescent, Maryport",1922-01-12
-82,Nevaeh Brooks,519312750,hsyerydmqx@bobalover.com,"Forge Farm, Eskdale",1960-08-07
-83,Natalia Chavez,801303780,jmugobatca@aol.com,"Orchard Cottage, Gosforth",1921-11-23
-84,Quinn Wood,120589084,yrggyqfufh@oxy.edu,"55 Richmond Green, Carlisle",1931-07-24
-85,Josephine James,444022878,eqwcmsosxx@oxy.edu,"Mossdale, Glenridding",1970-03-12
-86,Sarah Bennet,110036320,btmdysssuv@yahoo.com,"1 Bedford Villas, Hensingham",1912-03-13
-87,Cora Gray,160682155,iuovgvlthd@bobalover.com,"Flat 2, 1 Marine Terrace, Silloth",1950-04-20
-88,Emery Mendoza,208267116,jfpqepdktt@gmail.com,"53 Brigham Road, Cockermouth",1945-06-09
-89,Samantha Ruiz,639934661,ayciqgrigo@aol.com,"48 Herdus Road, Whitehaven",1966-09-19
-90,Piper Hughes,170234777,fongiyxutm@bobalover.com,"1 The Old Library, Church Street, Keswick",2014-08-16
-91,Leilani Price,590382735,zzkyeyaokx@aol.com,"10 Helvellyn Rise, Carlisle",1942-07-01
-92,Eva Alvarez,925027219,bpghtwhzgx@bobalover.com,"5A Murrayfield Terrace, Ravenglass",1911-01-07
-93,Everleigh Castillo,461632241,lvorxdbhxm@gmail.com,"Quarry Bank, Capon Hill, Brampton",1946-06-03
-94,Madeline Sanders,446428853,joooumbfpt@yahoo.com,"Greenholme, Bewcastle",1974-05-05
-95,Lydia Patel,797433904,hsoqttaulm@gmail.com,"38 Madam Banks Road, Dalston",1931-03-26
-96,Jade Myers,115869790,quiwelwtaq@oxy.edu,"82 Brook Street, Carlisle",1934-07-17
-97,Peyton Long,594452947,omhfrvpafi@oxy.edu,"2 Birks House, Parkside Road, Cleator Moor",1936-01-13
-98,Brielle Ross,356284866,ipwpbymarr@aol.com,"4 Latrigg Road, Carlisle",1913-01-15
-99,Adeline Foster,606304154,ydtqkslhvg@oxy.edu,"Old Shap Wells Cottage, Shap",1909-10-23
-100,Maya Jimenez,832393329,ecozeaiiwb@gmail.com,"23 Lawson Street, Aspatria",1959-04-15
-101,Jasmine Reyes,467640058,hqeymunnxn@gmail.com,"146 Pategill Road, Penrith",2017-09-21
->>>>>>> 92258c3224a0089e0048a7d64a052eabd43db1b6
+member_id,name,phone,email,address,year_init,month_init,day_init
+ezozosuyxy,Derek Garcia,6595598106,DerekGarcia@teaspoon-san-mateo.com,26 Delamere Road Urmston,2016,04,12
+qyllyffvyu,David Lozano,1760614787,DavidLozano@boba-fitt-drinks-union-city.com,King Georges Cottage King Georges Hill Abinger Common,2015,04,04
+sbqmptsmps,Justin Brown,4192945284,JustinBrown@yobelle-napa-2.com,Wenallt Fawr Rhydcymerau,2014,10,08
+mgbfdisdol,Rebecca Weiss,2533746068,RebeccaWeiss@ohana-hawaiian-bbq-of-pleasanton-pleasanton.com,4 Delhi View Woodside,2015,07,28
+gynlnajwje,Daniel Mclean,4486943537,DanielMclean@mr-green-bubble-walnut-creek-2.com,12 Dereham Terrace Choppington,2012,07,14
+dojeghiydc,Matthew Morrow,4077426063,MatthewMorrow@qteabar-oakland.com,36 Rayboulds Fold Dudley,2020,04,25
+chgyyufukc,Nicholas Espinoza,9335602367,NicholasEspinoza@mr-green-bubble-sunnyvale.com,12 Edgemond Avenue Birmingham,2020,02,24
+ylzxfqmyqi,Valerie Howard,6630886594,ValerieHoward@la-farfalla-bakery-fremont.com,Flat 13 Kinsey House Kingswood Estate London,2020,08,26
+qgysbbmkyo,Destiny Anderson,8566319162,DestinyAnderson@t4-and-poke-walnut-creek.com,188A Car Bank Street Atherton,2012,06,16
+gdvgunwgkh,Jacob Taylor,9896334483,JacobTaylor@surf-city-squeeze-concord.com,46 Stainton Road Sheffield,2015,01,28
+vfupwlerwv,Camila Martinez,189387071,vfupwlerwv@yahoo.com,Holmsdale Wigton Road Silloth,2019,08,23
+ibxmrmszar,Gianna Hernandez,688897239,ibxmrmszar@gmail.com,4 Hilden Road Cleator,2021,02,05
+etyowpivql,Abigail Lopez,164092911,etyowpivql@yahoo.com,1 Castle Meadows Whitehaven,2022,11,01
+ewnlszftdh,Luna Gonzales,142526588,ewnlszftdh@oxy.edu,47 Market Hill Wigton,2012,08,21
+dffelmrjly,Ella Wilson,260980401,dffelmrjly@yahoo.com,7 Barton Dale Lazonby,2015,03,25
+xjxurkhagg,Elizabeth Anderson,942093512,xjxurkhagg@aol.com,54 Brampton Road Carlisle,2022,04,13
+izzcwwxtcx,Sofia Thomas,477808799,izzcwwxtcx@oxy.edu,8 Kirkstone Road Whitehaven,2020,03,28
+rybgpdiaxm,Emily Taylor,959329564,rybgpdiaxm@yahoo.com,1 Pine Vale Cottages Thornthwaite,2021,04,05
+lvsrgsnyox,Avery Moore,896218067,lvsrgsnyox@gmail.com,28 Robert Owen Avenue Cleator Moor,2014,05,10
+jfqoabrnro,Mila Jackson,408004698,jfqoabrnro@aol.com,Cherry Tree Cottage Ousby,2020,05,06
+evlnzsizgk,Scarlett Martin,144479343,evlnzsizgk@aol.com,9 Bradbury Avenue Maryport,2020,02,16
+kvctsnwlep,Eleanor Lee,161656446,kvctsnwlep@oxy.edu,22 Albert Street Workington,2014,05,14
+gjwnfrlpiw,Madison Perez,998829610,gjwnfrlpiw@aol.com,Sunnydene Fletchertown,2012,02,01
+ebovgrkbjf,Layla Thompson,669505529,ebovgrkbjf@gmail.com,10 Browside Road Dearham,2014,06,28
+lssxfrwtdy,Penelope White,111967998,lssxfrwtdy@gmail.com,2 Brigham Hill Mansion Brigham,2015,08,06
+ijxukukqan,Aria Harris,793850936,ijxukukqan@bobalover.com,37 London Road Carlisle,2013,08,18
+zkwqkagrnn,Chloe Sanchez,729363590,zkwqkagrnn@oxy.edu,11 Yew Tree Court Carlisle,2019,09,23
+arvtychbrt,Grace Clark,396461950,arvtychbrt@bobalover.com,23 Petteril Street Carlisle,2020,10,15
+ccoqzntzhn,Ellie Ramirez,525569847,ccoqzntzhn@bobalover.com,269 Newtown Road Carlisle,2016,12,16
+arkgpmiovx,Nora Lewis,620365376,arkgpmiovx@yahoo.com,226 Scalegate Road Carlisle,2015,11,21
+qzclwtakez,Hazel Robinson,742546959,qzclwtakez@bobalover.com,Stonegarth North End Burgh By Sands,2022,04,05
+zxgdwtmmvz,Zoey Walker,445293479,zxgdwtmmvz@bobalover.com,Hangar 29 Carlisle Airport,2022,02,10
+skxpbgxxnu,Riley Young,741941062,skxpbgxxnu@aol.com,Uppertown Court Kirklinton,2016,02,27
+rxqdwcdktb,Victoria Allen,137067297,rxqdwcdktb@bobalover.com,2 Lake Road Keswick,2022,12,04
+vofqfaddel,Lily King,726276826,vofqfaddel@yahoo.com,8 Hadrian Way Houghton,2014,09,04
+hrzlaihyth,Aurora Wright,912538593,hrzlaihyth@oxy.edu,9 Cairn Wood Heads Nook,2022,07,24
+lszksvtqpe,Violet Scott,409597684,lszksvtqpe@gmail.com,4 Finn Avenue Carlisle,2017,02,22
+piwkzqkcgg,Nova Torres,599291767,piwkzqkcgg@bobalover.com,3 Northumberland Street Workington,2020,09,28
+bolungiosv,Hannah Nguyen,286306717,bolungiosv@aol.com,12 St Benedicts Way Wetheral,2016,10,09
+tfgtluuszd,Emilia Hill,200207665,tfgtluuszd@aol.com,The Saltings Port Carlisle,2014,10,04
+uhekxbxygf,Zoe Flores,183706573,uhekxbxygf@gmail.com,8 Chestnut Park Keswick,2018,02,16
+mgpduizfku,Stella Green,878954784,mgpduizfku@aol.com,71 High Brigham Brigham,2016,06,07
+rfqeyysymi,Everly Adams,345438619,rfqeyysymi@bobalover.com,Middleton House Waverbridge,2016,03,26
+ixeshcjghd,Isla Nelson,732737644,ixeshcjghd@bobalover.com,Smith House 14A - 14E Church Street Whitehaven,2015,05,03
+iiqlbunaif,Leah Baker,832595537,iiqlbunaif@aol.com,14 Union Street Wigton,2016,01,06
+lbupluejal,Lillian Hall,534483444,lbupluejal@gmail.com,Oak Cottage Townhead Farm Newbiggin,2013,06,28
+voqfvauhan,Addison Rivera,283357076,voqfvauhan@yahoo.com,7 The Acre Newton Arlosh,2019,06,21
+nimbqjmsdu,Willow Campbell,842025404,nimbqjmsdu@bobalover.com,4 Ashley Way Egremont,2016,12,07
+hcjmtdmpun,Lucy Mitchell,272395719,hcjmtdmpun@aol.com,4 Highbank Court Eamont Bridge,2020,11,16
+xmyhvtwall,Paisley Carter,587377854,xmyhvtwall@oxy.edu,9 The Acre Newton Arlosh,2017,05,20
+eimoiorlhz,Natalie Roberts,125796579,eimoiorlhz@aol.com,23 Moorside Drive Carlisle,2016,06,02
+jsntrzmnac,Naomi Gomez,703695039,jsntrzmnac@yahoo.com,27 Ehen Road Thornhill,2021,09,10
+fjfydbsxgf,Eliana Phillips,795566739,fjfydbsxgf@oxy.edu,5 Barnett Drive Seaton,2022,04,02
+teuhfehvyg,Brooklyn Evans,373099845,teuhfehvyg@bobalover.com,Loshville 15 Etterby Scaur Carlisle,2021,05,13
+ofmumlwrgg,Elena Turner,905635880,ofmumlwrgg@gmail.com,Flat 7 Royal Oak House Station Street Keswick,2012,01,15
+ctcsxiwuer,Aubrey Diaz,944055872,ctcsxiwuer@bobalover.com,Redgables House Red Gables Greenrow,2021,03,30
+goigcbchpn,Claire Parker,778226403,goigcbchpn@gmail.com,Baggrow Farm Cottage Baggrow,2012,10,16
+emknkuswxt,Ivy Cruz,499312630,emknkuswxt@oxy.edu,68 Loweswater Avenue Whitehaven,2017,01,20
+lykhlzpavm,Kinsley Edwards,627409210,lykhlzpavm@oxy.edu,4 Crossings Terrace Maryport,2019,01,06
+ylxxaefzwf,Audrey Collins,815322048,ylxxaefzwf@yahoo.com,18 Bishops Way Dalston,2012,03,01
+aidvkbnvaa,Maya Reyes,477571676,aidvkbnvaa@yahoo.com,7 Finkle Street Carlisle,2013,06,30
+veeyvhoozm,Genesis Stewart,107505552,veeyvhoozm@gmail.com,25 Esther Street Carlisle,2022,03,23
+qtgwutpehp,Skylar Morris,443995956,qtgwutpehp@yahoo.com,Glasson House Glasson Industrial Estate Maryport,2020,06,14
+vkgbsqpwyd,Bella Morales,233230862,vkgbsqpwyd@oxy.edu,9 Woodbank Egremont,2013,11,14
+adnhytiltz,Aaliyah Murphy,273497600,adnhytiltz@yahoo.com,36 The Green Whitehaven,2013,12,11
+nukvieykgm,Madelyn Cook,476561931,nukvieykgm@aol.com,6 Railway Terrace Gilsland,2018,08,28
+lvfeubefar,Savannah Rogers,773041985,lvfeubefar@bobalover.com,374 London Road Carlisle,2015,03,06
+gbecvuwlfk,Anna Gutierrez,147610292,gbecvuwlfk@yahoo.com,69 Scotland Road Penrith,2022,05,08
+cmhdstdqpj,Delilah Ortiz,909743620,cmhdstdqpj@bobalover.com,51 Brierydale Lane Stainburn,2014,03,27
+zunmtffokx,Serenity Morgan,958230234,zunmtffokx@aol.com,36 Noble Croft Aspatria,2013,06,08
+mzhgqfmvnw,Caroline Cooper,418964808,mzhgqfmvnw@gmail.com,68 Kingmoor Road Carlisle,2012,01,07
+cgpjvkguky,Kennedy Peterson,481146317,cgpjvkguky@bobalover.com,2 Beach Street Workington,2015,02,19
+bwpwtzgwyf,Valentina Bailey,647090514,bwpwtzgwyf@gmail.com,32 Gaitle Bridge Gaitle,2015,06,23
+nklnirfiwr,Ruby Reed,424406154,nklnirfiwr@gmail.com,2 Shepherds Garth Great Asby,2021,02,07
+grmslzuveh,Sophie Kelly,441805097,grmslzuveh@gmail.com,80 Ridley Road Carlisle,2017,08,24
+uondsrolai,Alice Howard,520216300,uondsrolai@gmail.com,Milligan Motors Blackwood Road Lillyhall Industrial Estate,2019,05,27
+gsohcztqqv,Gabriella Ramos,171401899,gsohcztqqv@oxy.edu,6 Croasdale Avenue Whitehaven,2020,06,29
+sarpihjzvm,Sadie Kim,912782700,sarpihjzvm@aol.com,Halcyon House Capon Hill Brampton,2017,08,28
+wzrqeylwpu,Ariana Cox,725327570,wzrqeylwpu@aol.com,9 Cromwell Terrace Cockermouth,2013,07,09
+gaxnawtyrj,Allison Ward,995729926,gaxnawtyrj@bobalover.com,1 Close Cottages Well Lane Stanwix,2017,08,04
+nhvapwlpik,Hailey Richardson,857945787,nhvapwlpik@yahoo.com,6 Sunny Bank Threlkeld,2014,12,16
+zcrlrliadz,Autumn Watson,856407049,zcrlrliadz@yahoo.com,10 Cedar Crescent Maryport,2016,01,12
+bcujlyiind,Nevaeh Brooks,519312750,bcujlyiind@bobalover.com,Forge Farm Eskdale,2014,03,27
+dwpxcfbbbo,Natalia Chavez,801303780,dwpxcfbbbo@bobalover.com,Orchard Cottage Gosforth,2019,09,03
+ovhbxphcpi,Quinn Wood,120589084,ovhbxphcpi@gmail.com,55 Richmond Green Carlisle,2017,03,20
+rmyuwvyhbk,Josephine James,444022878,rmyuwvyhbk@gmail.com,Mossdale Glenridding,2020,08,25
+mcciuinucp,Sarah Bennet,110036320,mcciuinucp@yahoo.com,1 Bedford Villas Hensingham,2021,10,28
+zdohmxfaty,Cora Gray,160682155,zdohmxfaty@oxy.edu,Flat 2 1 Marine Terrace Silloth,2014,10,24
+zjoqarwdni,Emery Mendoza,208267116,zjoqarwdni@gmail.com,53 Brigham Road Cockermouth,2013,06,30
+ksuqkdglvv,Samantha Ruiz,639934661,ksuqkdglvv@bobalover.com,48 Herdus Road Whitehaven,2018,11,05
+vmwfjfiggp,Piper Hughes,170234777,vmwfjfiggp@gmail.com,1 The Old Library Church Street Keswick,2019,12,13
+zcalrjvxrv,Leilani Price,590382735,zcalrjvxrv@aol.com,10 Helvellyn Rise Carlisle,2022,01,22
+bbcrqlqdtp,Eva Alvarez,925027219,bbcrqlqdtp@oxy.edu,5A Murrayfield Terrace Ravenglass,2019,06,15
+faczcsydbx,Everleigh Castillo,461632241,faczcsydbx@aol.com,Quarry Bank Capon Hill Brampton,2015,02,12
+aubqrrquvh,Madeline Sanders,446428853,aubqrrquvh@aol.com,Greenholme Bewcastle,2021,02,21
+tqfyemxtah,Lydia Patel,797433904,tqfyemxtah@oxy.edu,38 Madam Banks Road Dalston,2021,04,29
+luejltugcp,Jade Myers,115869790,luejltugcp@aol.com,82 Brook Street Carlisle,2013,05,07
+pfgbnyfast,Peyton Long,594452947,pfgbnyfast@yahoo.com,2 Birks House Parkside Road Cleator Moor,2021,04,12
+vdxdrnppyf,Brielle Ross,356284866,vdxdrnppyf@yahoo.com,4 Latrigg Road Carlisle,2014,06,20
+tgocgovoyq,Adeline Foster,606304154,tgocgovoyq@yahoo.com,Old Shap Wells Cottage Shap,2022,10,11
+wyevkqujsq,Maya Jimenez,832393329,wyevkqujsq@aol.com,23 Lawson Street Aspatria,2016,01,16
+wyefaalblj,Jasmine Reyes,467640058,wyefaalblj@yahoo.com,146 Pategill Road Penrith,2013,09,14
